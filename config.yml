@@ -280,7 +280,7 @@ online_moves:
     best_move: true 
     selection: "good"                     # Move selection is one of "optimal", "best" or "good".
 #   max_depth: 16                         # Half move max depth. (Comment this line for max depth)
-#   max_moves: 1                          # Max number of moves played from chessdb. (Comment this line for max moves)
+    max_moves: 1                          # Max number of moves played from chessdb. (Comment this line for max moves)
   online_egtb:
     enabled: false                        # Activate online endgame tablebases from Lichess.
     min_time: 5                           # Time the bot must have at least to use the online move. +10 seconds in games without increment.
